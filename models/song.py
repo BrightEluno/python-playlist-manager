@@ -22,6 +22,3 @@ class Song:
         return f"{self.name } by {self.singer} ({ self.genre})"
 
         
-
-
-        
