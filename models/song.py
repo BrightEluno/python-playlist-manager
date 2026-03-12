@@ -21,4 +21,3 @@ class Song:
     def __str__(self) -> str:
         return f"{self.name } by {self.singer} ({ self.genre})"
 
-        
