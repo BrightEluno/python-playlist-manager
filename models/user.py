@@ -8,4 +8,3 @@ class User:
     def authentication(self, userName: str, password: str) -> bool:
         # checking for provided credentials against this users credentials
         return self.userName == userName and self.password == password
-
