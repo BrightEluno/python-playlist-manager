@@ -35,7 +35,6 @@ class AuthenticationService:
         if self.users.authentication(userName, password):
             self.failed_attempts = 0
             return True
-        
         # failed login
         self.failed_attempts += 1
         if self.failed_attempts >= self.max_attempt:
