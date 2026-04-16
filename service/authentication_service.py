@@ -6,6 +6,7 @@ import time
 from models.user import User
 
 
+
 class AuthenticationService:
     """
     Authentication service is enforcing three attempts limiting the user for only three attempt after three attempts the system will display a lock simulated by displaying a message
