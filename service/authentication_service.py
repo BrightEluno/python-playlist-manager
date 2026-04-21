@@ -8,7 +8,6 @@ class AuthenticationService:
     """
     Authentication service is enforcing three attempts limiting the user for only three attempt after three attempts the system will display a lock simulated by displaying a message
     """
-
     def __init__(self, users: User, max_attempt: int = 3, minutes_lock: int = 5):
         self.users = users
         self.max_attempt = max_attempt
