@@ -1,8 +1,6 @@
 """
 This is the authentication service with a limited attempt tries locking message.
 """
-
-
 import time
 from models.user import User
 
