@@ -16,7 +16,7 @@ class AuthenticationService:
         self.minutes_lock = minutes_lock
         self.failed_attempts = 0
         self.locked_time = None
-    
+     
     def locked(self) -> bool:
         if self.locked_time is None:
             return False
