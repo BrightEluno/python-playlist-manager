@@ -40,5 +40,3 @@ class AuthenticationService:
             self.locked_time = time.time() + (self.minutes_lock * 60)
         return False
 
-
-
